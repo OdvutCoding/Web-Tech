@@ -18,23 +18,24 @@
         
 <div class="hnavmenu">
         <?php
-        //Session validation
+        //Session validation - Faulty - redirecting to Login page instead of homepage
         $homepage;
         if(isset($_SESSION['username'])) //if session exists, isset checking $_SESSION superglobal
         {
-            $homepage='Landing.php';
+            $homepage='../Controller/SessionController.php';
         }
         else
         {
-            $homepage='Login.php';
+            $homepage='homepage.php'; //Old line: $homepage='Login_Form.php';
+
         }
        //Navigation
         echo str_repeat('&nbsp;',50);
         echo "<a href = $homepage >Home</a>";
         echo str_repeat('&nbsp;',2);
-        echo "<a href = 'Login.php'>Sign in</a>";
+        echo "<a href = 'Login_Form.php'>Sign in</a>";
         echo str_repeat('&nbsp;',2);
-        echo "<a href = 'Registration.php'>Register</a>";
+        echo "<a href = 'Registration_Form.php'>Register</a>";
         ?>
 </div>
 

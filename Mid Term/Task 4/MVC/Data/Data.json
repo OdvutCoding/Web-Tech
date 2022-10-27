@@ -1,0 +1,39 @@
+[
+    {
+        "username": "John",
+        "password": "$2y$10$wlJVf9hsPoa9fUfRwC9MdOyhmJw1vtw7DkphHr4\/kgpeOhJMepRtG"
+    },
+    {
+        "username": "Ken",
+        "password": "$2y$10$Jc1PcoYshdXEwZ9Z3V.eH.lAk\/U1Zr2fNYJ3bZLz4zvs0CAKRpETK"
+    },
+    {
+        "username": "Duck",
+        "password": "$2y$10$rXmn7bZrEVGSwjySyZ\/.5e5Gw8adMPNwIFTdmCYsjUYhp2t7DywVO"
+    },
+    {
+        "username": "John123",
+        "password": "$2y$10$KtgPCodHcSDzoWDfDFWH3elmm0bwpNeLLXaXTTXUyZqAhmhUZrwC."
+    },
+    {
+        "username": "Duckling",
+        "password": "$2y$10$YtPmJNmboPEj2nb7tLHGBuwr.OsjFdpldHrJpsVprVmVlb7SCcfqy",
+        "email": "duck@quack.com",
+        "gender": "other",
+        "dob": "2022-10-04"
+    },
+    {
+        "username": "Nikkei",
+        "password": "$2y$10$ILsOvwvLjE.QUXMW4SRH5utn8L0QFXlHg.PTlsD7TJUmsRaN6BGxW",
+        "email": "nikkei@nik.com",
+        "gender": "female",
+        "dob": "2022-10-05"
+    },
+    {
+        "username": "Duol",
+        "password": "$2y$10$KHmkgL02Oh.Mkm5CWtGzZuLaDZERYo6TrC4.j1mB5SIuvxp9Oi1SG",
+        "email": "duol@duol.com",
+        "gender": "male",
+        "dob": "2022-10-24"
+    }
+]
